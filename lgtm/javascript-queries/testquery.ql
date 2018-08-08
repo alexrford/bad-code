@@ -9,5 +9,4 @@
  */
  import javascript
  
- from Comment c 
- select c, "this is a comment"
+ from Com
