@@ -9,4 +9,4 @@
  */
  import javascript
  
- from Com
+ from Comment c select c
