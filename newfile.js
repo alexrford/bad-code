@@ -13,3 +13,9 @@ capacity = capacity; var a = new Array(capacity + capacity>>1);
 function bar() {
   console.log('this function is unused');
 }
+
+
+var x = 100                                                                                                                                                                     
+alert(x + x>>1)                                                                                                                                                                 
+alert(x + x>>1) // lgtm                                                                                                                                                         
+alert(x + x>>1) // lgtm [js/whitespace-contradicts-precedence]
