@@ -4,7 +4,9 @@ function foo(x, y) {
 
 
 alert(foo(7));
-
+foo(1);
+var x = 1;
+x = x;
 var capacity = 1;
 capacity = 2;
 capacity = capacity; var a = new Array(capacity + capacity>>1);
