@@ -1,2 +1,9 @@
 queries:
   include: "*"
+queries:
+  - exclude: html-attributes
+extraction:
+  java:
+    index:
+      build_command:
+        - javac JunkClass.java
